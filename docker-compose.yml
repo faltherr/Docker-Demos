@@ -1,0 +1,14 @@
+
+version: '0.0.1'
+services:
+  server:
+    # ports:
+      # - "5578:5578"
+      # command: npm start
+      build: ./server
+  client:
+    # ports: 
+    #   - "3000:3000"
+    # command: npm start
+    build: ./docker-demo
+    
